@@ -23,7 +23,7 @@ async function checkWeather(city) {
 			data.sys.country
 		);
 		document.querySelector(".temp").innerHTML =
-			Math.round(data.main.temp) + "°c";
+			Math.round(data.main.temp) + "°C";
 		document.querySelector(".humidity").innerHTML =
 			data.main.humidity + "%";
 		document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
